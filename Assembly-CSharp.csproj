@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\bomController.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\bulletHit.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\cameraFollow.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\destroyMe.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\New Folder\New Folder\Scripts\PlayerController.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\playerHealth.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\projectileController.cs" />
+     <Compile Include="Assets\undeadShoot.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
