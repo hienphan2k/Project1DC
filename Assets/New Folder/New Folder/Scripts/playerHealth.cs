@@ -36,6 +36,15 @@ public class playerHealth : MonoBehaviour {
 			makeDead ();
 	}
 
+	// Tao chuc nang hoi mau khi an duoc vien mau
+
+	public void addHealth(float healthAmount){
+		currentHealth += healthAmount;
+		if (currentHealth > maxHealth)
+			currentHealth = maxHealth;
+		playerHealthSlider.value = currentHealth;
+	}
+
 	void makeDead(){
 		Instantiate (bloodEffect, transform.position, transform.rotation);
 		Destroy (gameObject);

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{665988AD-D43C-D1AB-9345-1185AA5A5870}</ProjectGuid>
+    <ProjectGuid>{EBD6DD70-93AA-477A-D072-829E11B71A9C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +57,7 @@
      <Compile Include="Assets\New Folder\New Folder\Scripts\enemyDamage.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\enemyMovementController.cs" />
+     <Compile Include="Assets\New Folder\New Folder\Scripts\HeartPickUp.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\PlayerController.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\playerHealth.cs" />
      <Compile Include="Assets\New Folder\New Folder\Scripts\projectileController.cs" />

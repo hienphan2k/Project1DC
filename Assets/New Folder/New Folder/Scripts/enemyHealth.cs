@@ -14,6 +14,10 @@ public class enemyHealth : MonoBehaviour {
 	//Khai bao cac bien de tao thanh mau cho enemy
 	public Slider enemyHealthSlider;
 
+	//Kb cac bien de khi enemy chet se roi ra vien mau;
+	public bool drop;
+	public GameObject theDrop;
+
 	// Use this for initialization
 	void Start () {
 		currentHealth = maxHealth;
@@ -38,5 +42,9 @@ public class enemyHealth : MonoBehaviour {
 	void makeDead(){
 		Destroy (gameObject);
 		Instantiate (enemyHealthEF, transform.position, transform.rotation);
+		// Chuc nang roi ra vien mau
+		if (drop) {
+			Instantiate (theDrop, transform.position, transform.rotation);
+		}
 	}
 }
